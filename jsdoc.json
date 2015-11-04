@@ -1,0 +1,22 @@
+{
+  "tags": {
+    "allowUnknownTags": true
+  },
+  "plugins": [
+    "node_modules/jsdoc-babel",
+    "plugins/markdown"
+  ],
+  "templates": {
+    "theme": "cerulean"
+  },
+  "markdown": {
+    "parser": "gfm",
+    "hardwrap": true
+  },
+  "babel": {
+    "extensions": ["js", "jsx"]
+  },
+  "source": {
+    "includePattern": ".+\\.js(x)?$"
+  }
+}
